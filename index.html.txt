@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Travel Buddy</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #b2ebf2); /* soft page background */
+    }
+
+    /* Header container */
+    .header {
+      width: 90%;
+      max-width: 1000px;
+      margin: 20px auto;
+      background: linear-gradient(135deg, #0093E9, #80D0C7); /* teal-blue gradient */
+      border-radius: 20px;
+      padding: 30px 20px;
+      text-align: center;
+      color: white;
+      box-shadow: 0px 6px 20px rgba(0,0,0,0.2);
+    }
+
+    .header h1 {
+      font-size: 60px;
+      margin: 0 0 10px 0;
+    }
+
+    .header p {
+      font-size: 20px;
+      margin: 0;
+      font-weight: 500;
+    }
+
+    /* Info box */
+    .info-box {
+      background: #f0f8ff;
+      border-radius: 15px;
+      padding: 20px;
+      margin-top: 20px;
+      box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+      color: #1a5276;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    /* Image styling */
+    .city-image {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 15px;
+      margin-top: 15px;
+      box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+    }
+
+    /* Highlight best time */
+    .best-time {
+      color: #e74c3c;
+      font-weight: bold;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>✈️ AI Travel Buddy 🌍</h1>
+    <p>Your smart travel assistant. Ask about any city and discover its highlights!</p>
+  </div>
+
+  <div id="output">
+    <!-- This is where Streamlit will inject info box and images -->
+  </div>
+
+</body>
+</html>

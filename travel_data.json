@@ -1,0 +1,27 @@
+{
+  "paris": {
+    "info": "Eiffel Tower, Louvre Museum, and romantic Seine river cruises.",
+    "best_time": "April to June and September to November",
+    "image": "paris.jpg"
+  },
+  "london": {
+    "info": "London Tower, Big Ben, Buckingham Palace, and vibrant culture.",
+    "best_time": "March to May",
+    "image": "london.jpg"
+  },
+  "newyork": {
+    "info": "Statue of Liberty, Times Square, Central Park, and Broadway shows.",
+    "best_time": "April to June and September to early November",
+    "image": "newyork.jpg"
+  },
+  "tokyo": {
+    "info": "Tokyo Tower, cherry blossoms, modern tech hubs, and Shibuya crossing.",
+    "best_time": "March to May and October to November",
+    "image": "japan.jpg"
+  },
+  "delhi": {
+    "info": "Red Fort, India Gate, Qutub Minar, and street food like chaat.",
+    "best_time": "October to March",
+    "image": "delhi.jpg"
+  }
+}
